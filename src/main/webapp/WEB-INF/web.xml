@@ -1,0 +1,77 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>RegisterUser</servlet-name>
+  	<display-name>RegisterUser</display-name>
+  	<description></description>
+  	<servlet-class>RegisterUser</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>LoginUser</servlet-name>
+  	<display-name>LoginUser</display-name>
+  	<description></description>
+  	<servlet-class>LoginUser</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>UpdateUser</servlet-name>
+  	<display-name>UpdateUser</display-name>
+  	<description></description>
+  	<servlet-class>UpdateUser</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>AddBook</servlet-name>
+  	<display-name>AddBook</display-name>
+  	<description></description>
+  	<servlet-class>AddBook</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>BookSearch</servlet-name>
+  	<display-name>BookSearch</display-name>
+  	<description></description>
+  	<servlet-class>BookSearch</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>AddMyBooks</servlet-name>
+  	<display-name>AddMyBooks</display-name>
+  	<description></description>
+  	<servlet-class>AddMyBooks</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>ChangePassword</servlet-name>
+  	<display-name>ChangePassword</display-name>
+  	<description></description>
+  	<servlet-class>ChangePassword</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>RegisterUser</servlet-name>
+  	<url-pattern>/RegisterUser</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>LoginUser</servlet-name>
+  	<url-pattern>/LoginUser</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>UpdateUser</servlet-name>
+  	<url-pattern>/UpdateUser</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>AddBook</servlet-name>
+  	<url-pattern>/AddBook</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>BookSearch</servlet-name>
+  	<url-pattern>/BookSearch</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>AddMyBooks</servlet-name>
+  	<url-pattern>/AddMyBooks</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>ChangePassword</servlet-name>
+  	<url-pattern>/ChangePassword</url-pattern>
+  </servlet-mapping>
+</web-app>

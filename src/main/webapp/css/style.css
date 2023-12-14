@@ -1,0 +1,137 @@
+@charset "ISO-8859-1";
+
+#page{
+	background-color: black;
+}
+
+#header{
+	width: 100%;
+	height:15%;
+	text-align: center;
+	font-size: 28px;
+	background-color: pink;
+}
+
+#content{
+	height: 75%;
+	width: 100%;
+	background-color: black;
+}
+
+#ucontent{
+	height: 75%;
+	width: 100%;
+	background-color: black;
+}
+
+#left{
+	float: left;
+	background-color: #a696c8;
+	height:100%;
+	width:49.5%;
+	text-align: center;
+}
+
+#uleft{
+	float: left;
+	background-color: #8ea5eb;  
+	height:100%;
+	width:24.5%;
+	text-align: center;
+}
+
+#reg-field{
+	font-family: sans-serif;
+}
+
+#reg-table{
+	background-color: #edb1f1;
+	border: thin;
+	border-style: solid;
+	border-color: #8f71ff;
+	padding: 5px 5px;
+	margin: 5px auto;
+}
+
+.center-content{
+	margin: auto;
+	width: 100%;
+	padding:20px 0;
+}
+.center-content-search{
+	margin: auto;
+	width: 100%;
+	padding:5px 0;
+}
+
+.utable{
+	margin: auto;
+	width: 100%; 
+}
+
+
+.btn-group{
+	margin: auto;
+	width: 50%; 
+	padding: 40px 0;
+}
+
+.btn-group button {
+  background-color: white;
+  border: 1px solid blue; 
+  color: black; 
+  padding: 10px;
+  text-align: center;
+  text-decoration: none; 
+  width:120px;
+  display: block;
+  font-size: 14px;
+}
+
+.btn-group button:not(:last-child) {
+  border-bottom: none; /* Prevent double borders */
+}
+
+/* Add a background color on hover */
+.btn-group button:hover {
+  background-color: #ffdd00;;
+}
+
+
+
+#right{
+	margin-left: 50%;
+	background-color: #a696c8;
+	height:100%;
+	width:50%;
+	text-align: center;
+}
+
+#uright{
+	margin-left:25.5%;
+	background-color: #a696c8;
+	height:100%;
+	text-align: center;	
+	width:74.5%;
+}
+
+#log-field{
+	font-family: sans-serif;
+}
+
+#log-table{
+	background-color: #edb1f1;
+	border: medium;
+	border-style: solid;
+	border-color: #8f71ff;
+	padding: 10px 5px;
+	margin: 10px auto;
+}
+
+#footer{
+	height: 10%;
+	width: 100%;
+	font-size: 20px;
+	text-align: center;
+	background-color: pink;
+}
